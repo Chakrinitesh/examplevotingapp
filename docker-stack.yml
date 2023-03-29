@@ -38,7 +38,7 @@ services:
       - backend
 
   worker:
-    image: sreeharshav/example-voting-app_worker
+    image: dockersamples/example-voting-app_worker
     networks:
       - frontend
       - backend
